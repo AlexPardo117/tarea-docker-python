@@ -36,6 +36,7 @@ jobs:
     - name: 6. Construir imagen y subir a Docker Hub
       uses: docker/build-push-action@v5
       with:
-        context: .
-        push: true
-        tags: AlexPardo117/tarea-docker-python:latest
+          context: .
+          push: true
+          # USA ESTE FORMATO: usuario/nombre-repositorio:etiqueta
+          tags: alexpardo117/tarea-docker-python:latest
