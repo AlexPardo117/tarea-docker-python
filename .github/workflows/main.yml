@@ -1,4 +1,4 @@
-name: CI/CD Docker Python
+name: CI/CD Docker Python //automatizacion de pruebas y despliegue
 
 on:
   push:
